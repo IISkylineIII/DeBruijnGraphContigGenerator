@@ -7,7 +7,7 @@ DeBruijnGraphContigGenerator is a Python script that constructs a De Bruijn grap
 build_debruijn_graph(kmers)
 Purpose: Builds a De Bruijn graph from a list of k-mers.
 
-# Approach: Each k-mer is split into a prefix and a suffix, and edges are created between the nodes in the graph. The graph is represented as an adjacency list.
+Approach: Each k-mer is split into a prefix and a suffix, and edges are created between the nodes in the graph. The graph is represented as an adjacency list.
 
 find_eulerian_path(graph)
 * Purpose: Finds the Eulerian path in the De Bruijn graph.
